@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03E187F197A71FB00ED47DB /* SampleTable.plist in Resources */ = {isa = PBXBuildFile; fileRef = D03E187E197A71FB00ED47DB /* SampleTable.plist */; };
+		D066B3DE195912C70042C901 /* ZKDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D066B3DD195912C70042C901 /* ZKDatabase.sqlite */; };
+		D066B3DF195912C70042C901 /* ZKDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D066B3DD195912C70042C901 /* ZKDatabase.sqlite */; };
 		D0D0000F194D21F60075A661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D0000E194D21F60075A661 /* Foundation.framework */; };
 		D0D00011194D21F60075A661 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D00010194D21F60075A661 /* CoreGraphics.framework */; };
 		D0D00013194D21F60075A661 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D00012194D21F60075A661 /* UIKit.framework */; };
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D03E187E197A71FB00ED47DB /* SampleTable.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleTable.plist; sourceTree = "<group>"; };
+		D066B3DD195912C70042C901 /* ZKDatabase.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZKDatabase.sqlite; sourceTree = "<group>"; };
 		D0D0000B194D21F60075A661 /* ZKSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D0000E194D21F60075A661 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0D00010194D21F60075A661 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,10 +119,12 @@
 		D0D00014194D21F60075A661 /* ZKSQLite */ = {
 			isa = PBXGroup;
 			children = (
+				D066B3DD195912C70042C901 /* ZKDatabase.sqlite */,
 				D0D0001D194D21F60075A661 /* ZKAppDelegate.h */,
 				D0D0001E194D21F70075A661 /* ZKAppDelegate.m */,
 				D0D0003D194D22F70075A661 /* ZKSQLiteManager.h */,
 				D0D0003E194D22F70075A661 /* ZKSQLiteManager.m */,
+				D03E187E197A71FB00ED47DB /* SampleTable.plist */,
 				D0D00020194D21F70075A661 /* Images.xcassets */,
 				D0D00015194D21F60075A661 /* Supporting Files */,
 			);
@@ -230,6 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D00019194D21F60075A661 /* InfoPlist.strings in Resources */,
+				D03E187F197A71FB00ED47DB /* SampleTable.plist in Resources */,
+				D066B3DE195912C70042C901 /* ZKDatabase.sqlite in Resources */,
 				D0D00021194D21F70075A661 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D00032194D21FB0075A661 /* InfoPlist.strings in Resources */,
+				D066B3DF195912C70042C901 /* ZKDatabase.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +458,7 @@
 				D0D00039194D21FB0075A661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0D0003A194D21FB0075A661 /* Build configuration list for PBXNativeTarget "ZKSQLiteTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +467,7 @@
 				D0D0003C194D21FB0075A661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

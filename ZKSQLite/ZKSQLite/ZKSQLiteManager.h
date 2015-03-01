@@ -12,6 +12,24 @@
 
 + (instancetype)sharedInstance;
 
-- (void)createDataBase;
+- (id)exeuteStatement:(NSString*)sqlQuery;
 
+/*
+ 
+ Create Table with Array of keys
+ Create Table with Dictionary of key values
+ 
+ Drop Table
+ Drop Table Content only
+ 
+ Get All Key values as Dictionary
+ 
+ Execute any SQL query
+ 
+ */
+
+@end
+
+@interface NSString (Helper)
+- (BOOL)isValid;
 @end

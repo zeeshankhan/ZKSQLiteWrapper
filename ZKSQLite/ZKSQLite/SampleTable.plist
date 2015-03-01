@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Zeeshan</string>
+		<key>Age</key>
+		<integer>26</integer>
+		<key>IsMale</key>
+		<true/>
+		<key>DateOfBirth</key>
+		<string>23-Sep-1987</string>
+		<key>Country</key>
+		<string>India</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Shadab</string>
+		<key>Age</key>
+		<integer>27</integer>
+		<key>IsMale</key>
+		<true/>
+		<key>DateOfBirth</key>
+		<string>03-May-1986</string>
+		<key>Country</key>
+		<string>India</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ubaid</string>
+		<key>Age</key>
+		<integer>20</integer>
+		<key>IsMale</key>
+		<true/>
+		<key>DateOfBirth</key>
+		<string>16-Oct-1994</string>
+		<key>Country</key>
+		<string>India</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Nafees</string>
+		<key>Age</key>
+		<integer>50</integer>
+		<key>IsMale</key>
+		<false/>
+		<key>DateOfBirth</key>
+		<string>26-May-1976</string>
+		<key>Country</key>
+		<string>India</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Shoeb</string>
+		<key>Age</key>
+		<integer>60</integer>
+		<key>IsMale</key>
+		<true/>
+		<key>DateOfBirth</key>
+		<string>26-Oct-1970</string>
+		<key>Country</key>
+		<string>India</string>
+	</dict>
+</array>
+</plist>

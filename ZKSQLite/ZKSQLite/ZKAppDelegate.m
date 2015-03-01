@@ -7,6 +7,7 @@
 //
 
 #import "ZKAppDelegate.h"
+#import "ZKSQLiteManager.h"
 
 @implementation ZKAppDelegate
 
@@ -14,6 +15,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+  
+//    [[ZKSQLiteManager sharedInstance] exeuteStatement:@"SELECT * FROM AllTypes"];
     
     return YES;
 }
